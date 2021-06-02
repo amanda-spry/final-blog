@@ -1,0 +1,197 @@
+/* TO GET AN IDEA OF THE CSS YOU WILL LIKELY BE USING, SEE THE LISTS BELOW. */
+
+        /* 
+        
+        Spacing 
+
+            - padding (shorthand and/or specific properties like padding-bottom, etc.)
+
+            - margin, (shorthand and/or specific properties like margin-top, etc.)
+
+            - letter-spacing, word-spacing, line-height
+
+            - width, max-width, min-width
+            - height, max-height, min-height
+
+        Typography 
+
+            - font-family, font-size, font-style, font-weight
+
+            - text-decoration, text-align
+
+            - color
+
+            - text-shadow, text-transform
+
+        Box, Layout and Border 
+
+            - border (shorthand and/or specific properties like border-top, border-bottom-radius, border-width, etc.)
+
+            - box-shadow
+
+            - display, float, align-items, align-content
+
+            - grid-template-columns, grid-column-gap
+
+            - transform
+
+        Other
+
+            - :nth()-child (to target specific child elements)
+
+            - :focus, :hover, :active (to target link states)
+
+            - @font-face or @import (to import typefaces)
+
+        */
+
+
+/* ------ START WRITING YOUR CODE BELOW ------ */
+
+
+
+
+
+/* header 1 style */
+.header {
+    padding: 60px;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    transform: rotate(5deg);
+}
+
+/* header 2 style */
+.header-2 {
+    text-align: left;
+    margin-left: 2%;
+    text-decoration: bold;
+    font-size: 20px
+}
+
+/* header 3 style */
+.header-3 {
+    font-size: 15px;
+    margin-left: 0%;
+}
+
+/* header 4 style */
+.header-4 {
+    font-size: 15px;
+    margin-left: 0%;
+}
+
+/* header 5 style */
+.header-5 {
+    font-size: 15px;
+    margin-left: 0%;
+}
+
+/* header highlight for second word */
+.highlight {
+    color: yellow;
+    background-color: blue;
+    border-radius: 5px;
+}
+
+/* nav bar style */
+ul {
+    font-size: 20px;
+    background: #FFF;
+    list-style-type: none;
+    margin: 20;
+    padding: 10;
+    overflow: hidden;
+}
+
+/* nav bar list style */
+li {
+    float: left;
+}
+
+/* nav bar link style */
+a {
+    display: block;
+    color: #0000A0;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #FFF;
+}
+
+/* change color of nav bar button on hover */
+li a:hover {
+    background-color: #ddd;
+}
+
+/* style of the main article section */
+.main-section {
+    float: left;
+    width: 58%;
+    margin-left: 2%;
+    margin-top: -2%;
+}
+
+/* style of main article pic */
+.article-image {
+    float: left;
+    margin-bottom: 1%;
+    margin-right: 2%;
+    margin-left: -1.5%;
+    margin-top: -1%;
+
+    
+}
+
+/* article text style */
+.article-text {
+    padding-left: 0%;
+    margin-right: 5%;
+}
+
+/* article sidebar syle */
+.article-sidebar {
+    margin-left: 64%;
+    width: 25%;
+    margin-top: 2%;
+}
+
+/* style of vertical line */
+.vl {
+    border-right: 5px solid black;
+    position: static;
+    right: 00%;
+    top: 0;
+    border-radius: 2px;
+}
+
+/* style of horizontal line in sidebar*/
+.sidebar-hr {
+    height: 5px; 
+    background-color: black; 
+    border-width: 0; 
+    border-radius: 2px;
+}
+
+/* style of ellipses */
+.dramatic-ellipses {
+    text-decoration: bold;
+    font-size: 35px;
+    margin-top: -2%;
+    margin-bottom: 4%;
+}
+
+/* style of subscribe button */
+.sub-button {
+    font-size: 60px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+/* footer style */
+footer {
+    margin-top: 3%;
+}
